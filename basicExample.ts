@@ -1,4 +1,3 @@
-//import fs from 'fs';
 import { PaymentTracker } from "ton-payment-tracker";
 
 const trackedAddress = 'EQAa_d5RopvY6ZLcQFNJHFmdA8wf_igH-V-5Jc8DRprJIZa-';
@@ -9,8 +8,6 @@ const paymentProcessor = new PaymentTracker({
 	checkIntervalInSeconds: 30,
 });
 
-// const trackingStateFile = 'trackingState.json';
-// if ()
 const trackingState = await paymentProcessor.currentTrackingStateOf(trackedAddress);
 
 console.log(`Tracking address:`, trackedAddress);
