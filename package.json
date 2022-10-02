@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "module": "es2022",
+  "dependencies": {
+    "ton-payment-tracker": "github:nns2009/ton-payment-tracker"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23"
+  }
+}
