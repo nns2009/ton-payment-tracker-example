@@ -15,7 +15,7 @@ Very similar but slightly different, also uses testnet
 ### `persistentExample.ts`
 Proper example of how to incorporate payments to make sure that payments made during service/tracker down-time are not "lost" (not-counted/skipped).
 
-Processing payments and updating `trackingState` with `nextTrackingState` should be a singlt atomic operation (transaction) to make sure each payment is counted once and exactly once.
+Processing payments and updating `trackingState` with `nextTrackingState` should be a single atomic operation (transaction) to make sure each payment is counted once and exactly once.
 
 ## Presentation
 https://www.canva.com/design/DAFN6DbaJ2s/RWP3cA0nW96NIjr3KVsibg/view
